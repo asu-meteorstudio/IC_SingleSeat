@@ -1,0 +1,155 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &4505523648423665751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8157525910049755237}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a973c6873453d3940b670401f91c63e0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  modifier: 
+--- !u!1001 &6443596874689262856
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 407532218824328267, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: ObjectId
+      value: 03_AnswerB
+      objectReference: {fileID: 0}
+    - target: {fileID: 552127859124653709, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: ObjectId
+      value: 03_AnswerD
+      objectReference: {fileID: 0}
+    - target: {fileID: 736860551908776569, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_text
+      value: France
+      objectReference: {fileID: 0}
+    - target: {fileID: 1854949490873268894, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: ObjectId
+      value: 03_AnswerC
+      objectReference: {fileID: 0}
+    - target: {fileID: 2379099866920312972, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_text
+      value: Marble
+      objectReference: {fileID: 0}
+    - target: {fileID: 2665784105636053644, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_text
+      value: 3# - What is the medium used for this piece?
+      objectReference: {fileID: 0}
+    - target: {fileID: 2907385475111331181, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_Name
+      value: PFB_Question_03
+      objectReference: {fileID: 0}
+    - target: {fileID: 2965264984867660507, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_text
+      value: China
+      objectReference: {fileID: 0}
+    - target: {fileID: 5816559280533015268, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: ObjectId
+      value: 03_AnswerA
+      objectReference: {fileID: 0}
+    - target: {fileID: 6898102851519664213, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_text
+      value: Greece
+      objectReference: {fileID: 0}
+    - target: {fileID: 7494774674749919478, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_text
+      value: Limestone
+      objectReference: {fileID: 0}
+    - target: {fileID: 7787064601552711774, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: correctPropositionId
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8366292847369383459, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_text
+      value: Granite
+      objectReference: {fileID: 0}
+    - target: {fileID: 8508810685568918757, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_text
+      value: Onyx
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673463482928002963, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673463482928002963, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -26.397
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673463482928002963, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.311
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673463482928002963, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 8.474
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673463482928002963, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.057008676
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673463482928002963, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673463482928002963, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.9983737
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673463482928002963, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673463482928002963, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673463482928002963, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8673463482928002963, guid: a8408acc46d424947844e13fbb6c0aca,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: a8408acc46d424947844e13fbb6c0aca, type: 3}
+--- !u!1 &8157525910049755237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2907385475111331181, guid: a8408acc46d424947844e13fbb6c0aca,
+    type: 3}
+  m_PrefabInstance: {fileID: 6443596874689262856}
+  m_PrefabAsset: {fileID: 0}

@@ -1,0 +1,4 @@
+repository "DSFlow-Template@MeteorStudio@cloud"
+  path "/"
+    br "/main"
+    co "/main"

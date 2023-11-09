@@ -1,0 +1,98 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &813145165263713179
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 813145165263713176}
+  - component: {fileID: 813145165263713177}
+  - component: {fileID: 813145165263713178}
+  - component: {fileID: 6661426414910295917}
+  m_Layer: 0
+  m_Name: PFB_SeatManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &813145165263713176
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813145165263713179}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &813145165263713177
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813145165263713179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2540c035e1be45040b8b958ed3923eb6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DestroyOnSessionTermination: 1
+  UniqueByName: 0
+--- !u!114 &813145165263713178
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813145165263713179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4929d83901ae94441a2a95933124cfe0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _podSeatLayoutPrefab:
+  - {fileID: 6817020859273703007, guid: 8161e41bda017964a9935c6f6e8e4aa2, type: 3}
+  - {fileID: 6817020859273703007, guid: ee1b26a794ef0174299870217a0abde7, type: 3}
+  - {fileID: 6817020859273703007, guid: b0c55530993ec9a489f5028381c7379c, type: 3}
+  - {fileID: 6817020859273703007, guid: 45b1db09d22cea3448e3e97570bf18e4, type: 3}
+  - {fileID: 6817020859273703007, guid: 77d297e5533e32f45b88e42b62aab626, type: 3}
+  - {fileID: 6817020859273703007, guid: 0c5a697b0d73b294e87d944c0f83e68d, type: 3}
+  - {fileID: 6817020859273703007, guid: 77d297e5533e32f45b88e42b62aab626, type: 3}
+  - {fileID: 6817020859273703007, guid: b0c55530993ec9a489f5028381c7379c, type: 3}
+  - {fileID: 6817020859273703007, guid: 267c4114f96445e46a76d87a0c045fdd, type: 3}
+  - {fileID: 6817020859273703007, guid: e505dabed67fa0248b9fe0f1afa0c5f3, type: 3}
+  _podSeatLayoutConstructPrefab:
+  - {fileID: 581456867865709050, guid: 3efbe09b47edb61479dac16e3de6872e, type: 3}
+  - {fileID: 1263000641018349443, guid: e4c0bed7a9b772440b21b1ef55c1a1e8, type: 3}
+  - {fileID: 5651779398152234953, guid: aa3fdf86fbf4a6b429f2bbd016d409e3, type: 3}
+  - {fileID: 8839958359929581793, guid: bf9cd31ec27cdef41a28d1025cb81724, type: 3}
+  - {fileID: 2407422756292282634, guid: 2160618cac48da54c828bed9030d2d45, type: 3}
+  - {fileID: 5135912647934376905, guid: 663830091580a794cb0707d1f83ffb96, type: 3}
+  - {fileID: 2407422756292282634, guid: 79e4cae5951578b44b5f1651ece562bb, type: 3}
+  - {fileID: 2407422756292282634, guid: e696f4fe12cbefd4291db2fdadf9e498, type: 3}
+  - {fileID: 581456867865709050, guid: d6bb6c25199ab0046a52edeaaf155b38, type: 3}
+  - {fileID: 2407422756292282634, guid: ce03d24cc31b18a47b5391a894af91a9, type: 3}
+  - {fileID: 2407422756292282634, guid: 81d1e843a1686cf48b122da4162e4d46, type: 3}
+  _currentSceneSeatLayouts: {fileID: 0}
+  _verbose: 1
+--- !u!114 &6661426414910295917
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 813145165263713179}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 574040f27f7c7f94193f2b10981541f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

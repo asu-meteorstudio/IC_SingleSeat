@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ExperienceConfig xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" AllowAddPlayerWhileRunning="true" ExperienceName="SingleSeatTest" ServerFPS="90" LimitFPSOnHMDOffHead="false" SeatedExperience="true" VoiceChat="Teamspeak" TSMuteMic="false" TSMuteAudio="false" TSMuteHostessAudio="false" LipsyncMode="Teamspeak" LipsyncSyncUpdatePeriod="0" LipsyncAudioGain="1" EnableNativeHaptics="false">
+	<StartScenes>
+		<Scene SceneName="Copy of Subzero-Scene1" />
+		<Scene SceneName="classroom" />
+		<Scene SceneName="ConferenceRoom" />
+	</StartScenes>
+	<Avatars>
+		<Avatar Name="MIB Avatar 1" AvatarResource="Avatars/Andro/PFB_MIB_Androgyne_01" RigName="Character Creator AR" />
+		<Avatar Name="MIB men" AvatarResource="Avatars/PFB_MIB_Men_01" RigName="Character Creator AR" />
+	</Avatars>
+	<ExperienceProperties />
+	<TrackedProps />
+</ExperienceConfig>

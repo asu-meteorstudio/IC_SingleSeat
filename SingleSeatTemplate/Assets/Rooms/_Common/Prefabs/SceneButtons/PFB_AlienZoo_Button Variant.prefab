@@ -1,0 +1,91 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &8137302878894932917
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 483515642728033332, guid: 9f8c21150ef8a784a87cfb7663d3f315,
+        type: 3}
+      propertyPath: m_Name
+      value: PFB_AlienZoo_Button Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 3519330544068865266, guid: 9f8c21150ef8a784a87cfb7663d3f315,
+        type: 3}
+      propertyPath: m_CustomBakedTexture
+      value: 
+      objectReference: {fileID: 8900000, guid: 5dfc86129c382a045995851fd290539b, type: 3}
+    - target: {fileID: 6311247790015533045, guid: 9f8c21150ef8a784a87cfb7663d3f315,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311247790015533045, guid: 9f8c21150ef8a784a87cfb7663d3f315,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 2.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311247790015533045, guid: 9f8c21150ef8a784a87cfb7663d3f315,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311247790015533045, guid: 9f8c21150ef8a784a87cfb7663d3f315,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311247790015533045, guid: 9f8c21150ef8a784a87cfb7663d3f315,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311247790015533045, guid: 9f8c21150ef8a784a87cfb7663d3f315,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311247790015533045, guid: 9f8c21150ef8a784a87cfb7663d3f315,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.7071068
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311247790015533045, guid: 9f8c21150ef8a784a87cfb7663d3f315,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311247790015533045, guid: 9f8c21150ef8a784a87cfb7663d3f315,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311247790015533045, guid: 9f8c21150ef8a784a87cfb7663d3f315,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 6311247790015533045, guid: 9f8c21150ef8a784a87cfb7663d3f315,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8282588161101967423, guid: 9f8c21150ef8a784a87cfb7663d3f315,
+        type: 3}
+      propertyPath: m_Text
+      value: AlienZoo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349560518119558119, guid: 9f8c21150ef8a784a87cfb7663d3f315,
+        type: 3}
+      propertyPath: ObjectId
+      value: PFB_AlienZoo_Button
+      objectReference: {fileID: 0}
+    - target: {fileID: 8349560518119558119, guid: 9f8c21150ef8a784a87cfb7663d3f315,
+        type: 3}
+      propertyPath: OnHandEnter.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: AlienZoo_MainVista
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 9f8c21150ef8a784a87cfb7663d3f315, type: 3}

@@ -1,0 +1,376 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1880341137027432}
+  m_IsPrefabParent: 1
+--- !u!1 &1777373850239614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4751751250757068}
+  - component: {fileID: 95926914184258716}
+  m_Layer: 21
+  m_Name: RootAnimator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &1880341137027432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4543694738055904}
+  - component: {fileID: 114304987948169158}
+  - component: {fileID: 114710977468084440}
+  - component: {fileID: 114169768458577406}
+  - component: {fileID: 114163900580020116}
+  - component: {fileID: 114817624049579076}
+  - component: {fileID: 114897770777974492}
+  - component: {fileID: 114338416240186536}
+  - component: {fileID: 114250550917577952}
+  - component: {fileID: 114321715782272950}
+  m_Layer: 21
+  m_Name: PFB_MIB_Women
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4543694738055904
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880341137027432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4751751250757068}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!4 &4751751250757068
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1777373850239614}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 4543694738055904}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &95926914184258716
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1777373850239614}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: d1015621725955342a01b083e5091fa2, type: 3}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 1
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 1
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: '
+
+    Transform ''index_03_l'' has been deleted
+
+    Transform ''index_02_l'' has been deleted
+
+    Transform ''index_01_l'' has been deleted
+
+    Transform ''middle_03_l'' has been deleted
+
+    Transform ''middle_02_l'' has been deleted
+
+    Transform ''middle_01_l'' has been deleted
+
+    Transform ''pinky_03_l'' has been deleted
+
+    Transform ''pinky_02_l'' has been deleted
+
+    Transform ''pinky_01_l'' has been deleted
+
+    Transform ''ring_03_l'' has been deleted
+
+    Transform ''ring_02_l'' has been deleted
+
+    Transform ''ring_01_l'' has been deleted
+
+    Transform ''thumb_03_l'' has been deleted
+
+    Transform ''thumb_02_l'' has been deleted
+
+    Transform ''thumb_01_l'' has been deleted
+
+    Transform ''hand_l'' has been deleted
+
+    Transform ''lowerarm_l'' has been deleted
+
+    Transform ''upperarm_l'' has been deleted
+
+    Transform ''clavicle_l'' has been deleted
+
+    Transform ''index_03_r'' has been deleted
+
+    Transform ''index_02_r'' has been deleted
+
+    Transform ''index_01_r'' has been deleted
+
+    Transform ''middle_03_r'' has been deleted
+
+    Transform ''middle_02_r'' has been deleted
+
+    Transform ''middle_01_r'' has been deleted
+
+    Transform ''pinky_03_r'' has been deleted
+
+    Transform ''pinky_02_r'' has been deleted
+
+    Transform ''pinky_01_r'' has been deleted
+
+    Transform ''ring_03_r'' has been deleted
+
+    Transform ''ring_02_r'' has been deleted
+
+    Transform ''ring_01_r'' has been deleted
+
+    Transform ''thumb_03_r'' has been deleted
+
+    Transform ''thumb_02_r'' has been deleted
+
+    Transform ''thumb_01_r'' has been deleted
+
+    Transform ''hand_r'' has been deleted
+
+    Transform ''lowerarm_r'' has been deleted
+
+    Transform ''upperarm_r'' has been deleted
+
+    Transform ''clavicle_r'' has been deleted
+
+    Transform ''CC_Base_JawRoot'' has been deleted
+
+    Transform ''CC_Base_L_Eye'' has been deleted
+
+    Transform ''CC_Base_R_Eye'' has been deleted
+
+    Transform ''CC_Base_FacialBone'' has been deleted
+
+    Transform ''head'' has been deleted
+
+    Transform ''neck_01'' has been deleted
+
+    Transform ''spine_03'' has been deleted
+
+    Transform ''spine_02'' has been deleted
+
+    Transform ''spine_01'' has been deleted
+
+    Transform ''ball_l'' has been deleted
+
+    Transform ''foot_l'' has been deleted
+
+    Transform ''calf_l'' has been deleted
+
+    Transform ''thigh_l'' has been deleted
+
+    Transform ''ball_r'' has been deleted
+
+    Transform ''foot_r'' has been deleted
+
+    Transform ''calf_r'' has been deleted
+
+    Transform ''thigh_r'' has been deleted
+
+    Transform ''pelvis'' has been deleted
+
+    Transform ''root'' has been deleted'
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114163900580020116
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880341137027432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 608876f4fc041984eb6c510994055451, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AvatarVisuals:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+--- !u!114 &114169768458577406
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880341137027432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e7cfa4a9a7c35748a26ccde7c2366cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AvatarAnimator: {fileID: 95926914184258716}
+  AdditionalBones:
+  - Bone: 80
+    BoneTransform: {fileID: 0}
+  - Bone: 81
+    BoneTransform: {fileID: 0}
+--- !u!114 &114250550917577952
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880341137027432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 765a5152103d3b44fb252524710e8394, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &114304987948169158
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880341137027432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3df83f5bd80cbc64dabf3519dce0c3c6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  similarContent: {fileID: 100164, guid: 06667e9baa80f11408460f8eaa04c8fc, type: 3}
+  similarContentIgnoreObjects:
+  - CC_Base_Body
+  - CC_Base_Eye
+  - CC_Base_Teeth
+  - CC_Base_Tongue
+  variationContent:
+  - {fileID: 100000, guid: bcdf555441289d04b8de5ac2701bb450, type: 3}
+  - {fileID: 100000, guid: 8b2a9758d37ff1b4aa88faff3af282b2, type: 3}
+  - {fileID: 100000, guid: 4576a6a947575064f884230984bd8d63, type: 3}
+  - {fileID: 100000, guid: ebd217b59a603734d8c2d54b4e833990, type: 3}
+  variationContentIgnoreObjects:
+  - SM_MIB_Shoes
+  armatureRootName: root
+  generatePrefix: PFB_MIB_
+  generateSuffix: 
+  exportToPrefabPath: Assets/Avatars/MIB_V2/Resources/Avatars
+  generatedPrefabs:
+  - {fileID: 1448367395627236, guid: 8c2e4efa3c152954c857997f8edcd325, type: 2}
+  - {fileID: 1393662543589448, guid: adf37c32bebf38449805e255caeb47b2, type: 2}
+  - {fileID: 1098942936478846, guid: d51576f0f5c43c24395d94d286716f99, type: 2}
+  - {fileID: 1610228949171698, guid: f70feb9163821a347a4f5d99b98c877b, type: 2}
+  updateMaterials: 1
+--- !u!114 &114321715782272950
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880341137027432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e57514badead084f93f65ac91a9a881, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HandDefinition: {fileID: 11400000, guid: 4563a3d0bccba814eba1312a7c3b43e1, type: 2}
+--- !u!114 &114338416240186536
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880341137027432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 659572e2ec29c6e479dd36ede8904b8e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IgnoreVisemeSilence: 1
+  LipSyncEnabled: 0
+--- !u!114 &114710977468084440
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880341137027432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3d8fba9a1d64a17479c3041e7ddaea24, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  HeadBone: {fileID: 0}
+  ChairTemplateOverride: {fileID: 0}
+  BackpackToPelvisOffset: 0.04
+  DefaultArmStretchFactor: 1
+  HeadTargetOffset: {x: 0, y: -0.07, z: -0.11}
+  HandTargetOffset: {x: 0, y: -0.03, z: 0.04}
+  FootTargetOffset: {x: 0, y: -0.04, z: -0.015}
+--- !u!114 &114817624049579076
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880341137027432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 31735596d4f02884989c2b2695a746c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AvatarAnimator: {fileID: 0}
+  FaceDefinition: {fileID: 11400000, guid: 6c31fb80f7459f642b4fdd5b33262807, type: 2}
+  FaceRenderers:
+  - {fileID: 0}
+  - {fileID: 0}
+  DebugMode: 0
+  ActiveFaceStatesDebug: []
+--- !u!114 &114897770777974492
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1880341137027432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad7007904c4a97d479dfa47f7a7603a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DebugMode: 0
+  RegisteredHotSpotsDebug: []

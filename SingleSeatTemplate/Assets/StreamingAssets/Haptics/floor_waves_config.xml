@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FloorWaves xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+	<Generators>
+		<Generator Name="Test">
+			<Harmonics>
+				<Harmonic Frequency="1" Volume="0.1" />
+				<Harmonic Frequency="2" Volume="0.02" />
+				<Harmonic Frequency="3" Volume="0.03" />
+				<Harmonic Frequency="4" Volume="0.04" />
+				<Harmonic Frequency="5" Volume="0.05" />
+			</Harmonics>
+		</Generator>
+		<Generator Name="Rumble">
+			<Harmonics>
+				<Harmonic Frequency="10" Volume="0.1" />
+				<Harmonic Frequency="20" Volume="0.1" />
+				<Harmonic Frequency="30" Volume="0.1" />
+				<Harmonic Frequency="40" Volume="0.1" />
+				<Harmonic Frequency="50" Volume="0.1" />
+			</Harmonics>
+		</Generator>
+		<Generator Name="Soft Bang">
+			<Harmonics>
+				<Harmonic Frequency="5" Volume="0.4" />
+				<Harmonic Frequency="20" Volume="0.2" />
+				<Harmonic Frequency="50" Volume="0.1" />
+				<Harmonic Frequency="1" Volume="0" />
+				<Harmonic Frequency="1" Volume="0" />
+			</Harmonics>
+		</Generator>
+		<Generator Name="Hard Bang">
+			<Harmonics>
+				<Harmonic Frequency="2" Volume="0.8" />
+				<Harmonic Frequency="1" Volume="0" />
+				<Harmonic Frequency="1" Volume="0" />
+				<Harmonic Frequency="1" Volume="0" />
+				<Harmonic Frequency="1" Volume="0" />
+			</Harmonics>
+		</Generator>
+		<Generator Name="Random">
+			<Harmonics>
+				<Harmonic Frequency="5" Volume="0.1" />
+				<Harmonic Frequency="10" Volume="0.2" />
+				<Harmonic Frequency="20" Volume="0.1" />
+				<Harmonic Frequency="40" Volume="0.15" />
+				<Harmonic Frequency="80" Volume="0.2" />
+			</Harmonics>
+		</Generator>
+	</Generators>
+</FloorWaves>
